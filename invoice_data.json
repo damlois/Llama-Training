@@ -1,0 +1,52 @@
+[
+    {
+        "input": "Date of Invoice: 2024-03-01\nBilling Address: Musterstr. 23, 12345 Musterstadt\nCustomer Name: John Doe\nTotal Price: 381,12 €\nCustomer Phone Number: +49 9371 9786-0",
+        "output": {
+            "Invoice Date": "2024-03-01",
+            "Billing Address": "Musterstr. 23, 12345 Musterstadt",
+            "Customer Name": "John Doe",
+            "Total Price": "381,12 €",
+            "Customer Phone Number": "+49 9371 9786-0"
+        }
+    },
+    {
+        "input": "Date of Invoice: 2022-01-01\nBilling Address: triddel9@fake.com\nCustomer Name: Riddel Taylor\nTotal Price: USD 127.50\nCustomer Phone Number: po_number_123",
+        "output": {
+            "Invoice Date": "2022-01-01",
+            "Billing Address": "triddel9@fake.com",
+            "Customer Name": "Riddel Taylor",
+            "Total Price": "USD 127.50",
+            "Customer Phone Number": "po_number_123"
+        }
+    },
+    {
+        "input": "Date of Invoice: 2022-09-08\nBilling Address: Fakestreet 46, 3500 MJ Utrecht, Nederland\nCustomer Name: Strategic Corp\nTotal Price: 49.99 EUR\nCustomer Phone Number: nan",
+        "output": {
+            "Invoice Date": "2022-09-08",
+            "Billing Address": "Fakestreet 46, 3500 MJ Utrecht, Nederland",
+            "Customer Name": "Strategic Corp",
+            "Total Price": "49.99 EUR",
+            "Customer Phone Number": "nan"
+        }
+    },
+    {
+        "input": "Date of Invoice: 2014-05-07\nBilling Address: 93B Sai Yu Chung, Yuen Long, N.T., Hong Kong\nCustomer Name: ViveLabs Ltd.\nTotal Price: 30.84\nCustomer Phone Number: nan",
+        "output": {
+            "Invoice Date": "2014-05-07",
+            "Billing Address": "93B Sai Yu Chung, Yuen Long, N.T., Hong Kong",
+            "Customer Name": "ViveLabs Ltd.",
+            "Total Price": "30.84",
+            "Customer Phone Number": "nan"
+        }
+    },
+    {
+        "input": "Date of Invoice: 2022-11-28\nBilling Address: 27 rue Henri Rolland, 69100 Villeurbanne\nCustomer Name: ALEXINUX\nTotal Price: 56.02 EUR\nCustomer Phone Number: nan",
+        "output": {
+            "Invoice Date": "2022-11-28",
+            "Billing Address": "27 rue Henri Rolland, 69100 Villeurbanne",
+            "Customer Name": "ALEXINUX",
+            "Total Price": "56.02 EUR",
+            "Customer Phone Number": "nan"
+        }
+    }
+]
