@@ -1,4 +1,3 @@
-```markdown
 # Llama Training
 
 A project to train a Llama model for extracting specific fields from documents, such as invoices.
@@ -29,4 +28,3 @@ Follow the steps below to clone the repository, install dependencies, and run th
    ```bash
    python index.py
    ```
-```
