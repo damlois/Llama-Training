@@ -33,4 +33,10 @@ Follow the steps below to clone the repository, install dependencies, and run th
 ### Usage
 
 This script sets up and runs a Llama model to extract specific fields from documents. Ensure your input files and configuration meet the expected format for the best results.
-g
+
+## Contributing
+
+Contributions are welcome! Please open an issue or submit a pull request for any suggestions or improvements.
+
+## License
+``` 
