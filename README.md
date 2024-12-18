@@ -1,5 +1,3 @@
-Here's a simple **`README.md`** for your repository:
-
 ```markdown
 # Llama Training
 
